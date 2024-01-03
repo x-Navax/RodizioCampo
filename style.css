@@ -132,7 +132,9 @@ color: gray;
 margin-top: -20px;}
 @media only screen and (max-width: 480px) {
  .reloj  .rodiziopng {
-    width: 40%;
+    width: 74%;
+    margin-top: 10px;
+    margin-bottom: 16px;
     height: 18%;
     text-align: center;
     }
