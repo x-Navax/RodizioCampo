@@ -3,6 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 *{margin: 0;
     padding: 0;}
 /* MODIFICACION DE ADAPTACION */
@@ -23,9 +31,16 @@ header h1 {font-family: 'Alex Brush', cursive;
 
 color: palevioletred;}
 header h2 {font-family: 'Dancing Script', cursive;
-    padding-bottom: 15px;
+    margin-bottom: -10px;
     font-size: 220%;
 color: rgb(0, 0, 0);}
+
+header h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -25px;
+    font-size: 1.9rem;
+}
+
 header div img { width: 75%;
     height:80%;}
 /* inicio contador */
@@ -117,7 +132,7 @@ color: gray;
 margin-top: -20px;}
 @media only screen and (max-width: 480px) {
  .reloj  .rodiziopng {
-    width: 32%;
+    width: 40%;
     height: 18%;
     text-align: center;
     }
